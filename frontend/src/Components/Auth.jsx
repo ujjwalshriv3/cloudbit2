@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useNavigate, useSearchParams, useLocation } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
-import "../CSS/Auth.css";
+import "../css/Auth.css";
 import courseVideo from "../assets/images/course-video.mp4";
 
 const Auth = () => {
